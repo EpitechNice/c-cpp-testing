@@ -1,0 +1,19 @@
+name: "C(++) Code Building/Testing"
+description: "Compile and run Unit Tests"
+
+branding:
+  icon: "cpu"
+  color: "yellow"
+
+inputs:
+  additional_installs:
+    description: "Ubuntu packages to install before building / testing"
+    required: False
+
+outputs:
+  run_logs:
+    description: "Compilation & Unit Testing logs"
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
