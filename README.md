@@ -13,7 +13,7 @@ On error (no building method found, error on build, error on unit-testing...), t
 Example usage :
 
 ```yml
-- uses: EpitechNice/c-cpp-testing.git@v1
+- uses: EpitechNice/c-cpp-testing@v1
   id: project_build
   with:
     additional_installs:
